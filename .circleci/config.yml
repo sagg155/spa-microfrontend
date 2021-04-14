@@ -4,5 +4,8 @@ orbs:
 workflows:
   node-tests:
     jobs:
-      - node/test
+      branches:
+      only:
+        - master
+      #- node/test
 
