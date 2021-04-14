@@ -7,5 +7,5 @@ workflows:
       branches:
       only:
         - master
-      #- node/test
+      - node/test
 
